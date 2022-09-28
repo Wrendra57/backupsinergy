@@ -1,0 +1,19 @@
+.containerpad {
+    padding: 0px 120px 0px 120px;
+}
+
+p {
+    font-size: 20px;
+}
+
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .containerpad {
+        padding: 0px 0px 0px 0px;
+    }
+}

@@ -1,0 +1,66 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card {
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 3px 6px 1px rgba(26, 25, 26, 0.56);
+    width: 25%;
+}
+
+input {
+    width: 100%;
+    margin: 10px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: 1px solid blue;
+}
+
+.login {
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    width: 100%;
+    height: 40px;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.forgoten {
+    text-decoration: none;
+    text-align: center;
+}
+
+.forgoten:hover {
+    text-decoration: underline;
+}
+
+.createNew {
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    width: 60%;
+    height: 40px;
+    background-color: #42b72a;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.create {
+    text-align: center;
+}

@@ -1,0 +1,77 @@
+<!-- CDN Swiper JS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+<!-- Swiper -->
+<div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <div class="box-testimoni d-flex justify-content-center align-items-center flex-row gap-4 rounded">
+        <img src="assets/images/testimoni.png" alt="" />
+        <div>
+          <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i
+            class="bx bxs-star"></i>
+          <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ut neque laboriosam! Quos magni
+            quisquam tenetur impedit corrupti tempore quam vel neque. Accusamus, est dolorem.</p>
+          <p class="fs-6 fw-bold">John Doe, Bromo</p>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="box-testimoni d-flex justify-content-center align-items-center flex-row gap-4 rounded">
+        <img src="assets/images/testimoni1.png" alt="" />
+        <div>
+          <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i
+            class="bx bxs-star"></i>
+          <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ut neque laboriosam! Quos magni
+            quisquam tenetur impedit corrupti tempore quam vel neque. Accusamus, est dolorem.</p>
+          <p class="fs-6 fw-bold">John Doe, Bromo</p>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="box-testimoni d-flex justify-content-center align-items-center flex-row gap-4 rounded">
+        <img src="assets/images/testimoni.png" alt="" />
+        <div>
+          <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i
+            class="bx bxs-star"></i>
+          <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ut neque laboriosam! Quos magni
+            quisquam tenetur impedit corrupti tempore quam vel neque. Accusamus, est dolorem.</p>
+          <p class="fs-6 fw-bold">John Doe, Bromo</p>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="box-testimoni d-flex justify-content-center align-items-center flex-row gap-4 rounded">
+        <img src="assets/images/testimoni1.png" alt="" />
+        <div>
+          <i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i
+            class="bx bxs-star"></i>
+          <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ut neque laboriosam! Quos magni
+            quisquam tenetur impedit corrupti tempore quam vel neque. Accusamus, est dolorem.</p>
+          <p class="fs-6 fw-bold">John Doe, Bromo</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+</div>
+
+<!-- CDN Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+<script>
+  var swiper = new Swiper('.mySwiper', {
+    slidesPerView: 2,
+    spaceBetween: 30,
+    loop: true,
+    autoplay: {
+      delay: 3500,
+      disableOnInteraction: false,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+</script>

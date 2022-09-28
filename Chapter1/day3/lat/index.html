@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div class="fixed-top" style="background-color: rgb(115,48,248); color: white;">
+        <div class="container">
+            <nav class="navbar  navbar-expand-lg ">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-light" href="#">Bootstrap</a>
+                    <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon text-light"></span>
+                    </button>
+                    <div class="collapse navbar-collapse text-light" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-light">
+                            <li class="nav-item ">
+                                <a class="nav-link active text-light" aria-current="page" href="#">Docs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#">Examples</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light">Icons</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#">Themes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#">Blog</a>
+                            </li>
+                        </ul>
+                        <div class="d-flex flex-row align-items-center">
+                            <div class="mx-2 ">
+                                <a href="#" class="text-decoration-none"><i class="bi bi-github text-light"></i></a>
+                            </div>
+                            <div class="mx-2 border-end pe-3">
+                                <a href="#" class="text-decoration-none"><i class="bi bi-twitter text-light"></i></a>
+                            </div>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle text-light" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Dropdown
+                                        </a>
+                                        <ul class="dropdown-menu dropdown-menu-dark">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+            </nav>
+        </div>
+    </div>
+    <div class="container my-5">
+        <div class="bag1 mx-auto text-center">
+            <img src="https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-logo-shadow.png"
+                class="img-fluid image-responsive image1 mx-auto mb-1" />
+            <h1 class="text-center mb-1 judul">Build fast, responsive sites with Bootstrap</h1>
+            <p class="text-center mb-5 desc">Powerful, extensible, and feature-packed frontend toolkit. Build and
+                customize with
+                Sass,
+                utilize prebuilt
+                grid system and components, and bring projects to life with powerful JavaScript plugins.</p>
+            <div class="row justify-content-center mb-3">
+                <div class="col-4 d-flex flex-row justify-content-between card p-3">
+                    <div>
+                        <i class="bi bi-currency-dollar text-muted"></i><span>npm i bootstrap@5.2.1</span>
+                    </div>
+                    <span><i class="bi bi-clipboard"></i></span>
+                </div>
+                <div class="col-4 ">
+                    <a href="#" class="btn btn-primary w-100 "> Read the docs</a>
+                </div>
+            </div>
+            <p class="text-center mb-5">Currently v5.2.1 <span>.</span> <a href="#">Download</a> <span>.</span><a
+                    href="#">v.46.x docs</a>
+                <span>.</span> <a href="#">All releases</a>
+            </p>
+            <div class="text-center mb-5">
+                <i class="bi bi-caret-left"></i>
+                <i class="bi bi-caret-right"></i>
+            </div>
+            <div>
+                <h1 class="mb-3" style="font-size: 48px">Get started any way you want</h1>
+                <p class="mb-3" style="font-size: 20px">Jump right into building with Bootstrap—use the CDN, install it
+                    via package manager, or download the
+                    source code.</p>
+                <a href="#">
+                    <h4 class="mb-3" style="font-size: 20px">Read installation docs <span><i
+                                class="bi bi-arrow-right"></i></span></h4>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 pe-5">
+                <div class="">
+                    <i class="bi bi-box mb-2 fs-2"></i>
+                </div>
+                <h3>Install via package manager</h3>
+                <p class="pe-5">Install Bootstrap’s source Sass and JavaScript files via npm, RubyGems, Composer, or
+                    Meteor. Package
+                    managed installs don’t include
+                    documentation or our full build scripts. You can also use our npm template repo to quickly generate
+                    a
+                    Bootstrap project via npm.</p>
+                <div class="d-flex justify-content-between ">
+                    <div>
+                        <p><i class="bi bi-currency-dollar text-muted my-0"></i>npm install
+                            bootstrap@5.2.1 </p>
+                    </div>
+                    <div>
+                        <span><i class="bi bi-clipboard"></i></span>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-between ">
+                    <div>
+                        <p><i class="bi bi-currency-dollar text-muted"></i>gem install bootstrap -v 5.2.1 </p>
+                    </div>
+                    <div>
+                        <span><i class="bi bi-clipboard"></i></span>
+                    </div>
+                </div>
+
+                <p>Read our installation docs for more info and additional package managers.</p>
+            </div>
+            <div class="col-6">
+                <i class="bi bi-globe mb-2 fs-2"></i>
+                <h3>Include via CDN</h3>
+                <p>When you only need to include Bootstrap’s compiled CSS or JS, you can use jsDelivr. See it in action
+                    with our simple quick start, or browse the examples to jumpstart your next project. You can also
+                    choose to include Popper and our JS separately.</p>
+                <div class="">
+
+                    <p><i class="bi bi-currency-dollar text-muted"></i>npm install bootstrap@5.2.1 <span><i
+                                class="bi bi-clipboard"></i></span></p>
+                </div>
+            </div>
+        </div>
+        <div class="bag1 mx-auto text-center my-5">
+            <h4 class="fw-bold">Read our getting started guides</h4>
+            <p style="font-size: 20px">Get a jump on including Bootstrap's source files in a new project with our
+                official guides.</p>
+            <div class="d-flex align-items-center justify-content-center gap-4 mt-4">
+                <a href="#" class="d-flex flex-column align-items-center text-decoration-none">
+                    <img src="https://getbootstrap.com/docs/5.2/assets/img/webpack.png" class="" style="width: 72px;" />
+                    <span>Webpack</span>
+                </a>
+                <a href="#" class="d-flex flex-column align-items-center text-decoration-none">
+                    <img src="https://getbootstrap.com/docs/5.2/assets/img/parcel.png" class="" style="width: 72px;" />
+                    <span>Parcel</span>
+                </a>
+                <a href="#" class="d-flex flex-column align-items-center text-decoration-none">
+                    <img src="https://getbootstrap.com/docs/5.2/assets/img/vite.png" class="" style="width: 72px;" />
+                    <span>Vite</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
